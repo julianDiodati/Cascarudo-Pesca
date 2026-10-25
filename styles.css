@@ -27,3 +27,10 @@ footer{background:var(--forest);color:#eaf0e9}.footer-main{padding-top:46px;padd
 
 .category-card{grid-template-columns:74px 1fr 20px}.cat-image{width:74px;height:82px;object-fit:cover;border-radius:4px;display:block}
 @media(max-width:640px){.category-card{grid-template-columns:56px 1fr 18px;gap:9px;padding:13px;min-height:115px}.cat-image{width:56px;height:64px}}
+
+.category-card,.cat-fishing,.cat-camping,.cat-clothing,.cat-outdoor{background:var(--mint)}
+
+
+.category-nav a{display:inline-flex;align-items:center;justify-content:center;padding:9px 15px;border-radius:999px;transition:color .2s,background-color .2s}
+.category-nav a:hover,.category-nav a.active{background-color:var(--forest);color:#fff}
+@media(max-width:640px){.category-nav a{padding:11px 0;border-radius:0;background:transparent}.category-nav a:hover,.category-nav a.active{background:transparent;color:var(--teal)}}
