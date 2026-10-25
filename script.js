@@ -30,7 +30,7 @@
     p5: 'fotos/producto-linterna.jpg',
     p6: 'fotos/producto-bolsa-dormir.jpg',
     p7: 'fotos/category-indumentaria.jpg',
-    p8: 'fotos/producto-botas.jpg',
+    p8: 'fotos/bota.webp',
     p9: 'fotos/category-outdoor.jpg',
     p10: 'fotos/termo.webp',
     p11: 'fotos/navaja.webp',
